@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calu.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+        <br>
+        <button onclick="clearDisplay()">AC</button>
+        <button onclick="appendChar('+')">+</button>
+        <button onclick="appendChar('-')">-</button>
+        <button onclick="appendChar('/')">/</button>
+        <button onclick="appendChar('*')">*</button>
+        <button onclick="appendChar('.')">.</button>
+        <button onclick="appendChar('(')">(</button>
+        <button onclick="appendChar(')')">)</button>
+        <button onclick="appendChar('1')">1</button>
+        <button onclick="appendChar('2')">2</button>
+        <button onclick="appendChar('3')">3</button>
+        <button onclick="appendChar('4')">4</button>
+        <button onclick="appendChar('5')">5</button>
+        <button onclick="appendChar('6')">6</button>
+        <button onclick="appendChar('7')">7</button>
+        <button onclick="appendChar('8')">8</button>
+        <button onclick="appendChar('9')">9</button>
+        <button onclick="appendChar('0')">0</button>
+        <button onclick="calculate()" class="isequalto">=</button>
+        <br>
+        <button onclick="appendChar('Math.sqrt(')">√</button>
+        <button onclick="appendChar('Math.pow(')">x<sup>y</sup></button>
+        <button onclick="appendChar('Math.PI')">π</button>
+        <button onclick="appendChar('Math.exp(')">e<sup>x</sup></button>
+        <button onclick="appendChar('Math.sin(')">sin</button>
+        <button onclick="appendChar('Math.cos(')">cos</button>
+        <button onclick="appendChar('Math.tan(')">tan</button>
+        <button onclick="appendChar('1/Math.sin(')">cosec</button>
+        <button onclick="appendChar('1/Math.cos(')">sec</button>
+        <button onclick="appendChar('1/Math.tan(')">cot</button>
+    </div>
+    <script src="calu.js"></script>
+</body>
+</html>
